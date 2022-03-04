@@ -3,7 +3,7 @@ require_relative 'enumerables'
 class MyList
   include Enumerable
   def initialize(*list)
-    @list = list 
+    @list = list
   end
 
   def each(&block)
